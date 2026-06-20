@@ -1,82 +1,95 @@
 # BHARAT-TRUST-NET
 Bharat TrustNet is a browser-based trust verification platform that helps users identify legitimate banking, government, and public-service websites while protecting against phishing and digital fraud.
 <p>
-  # Bharat TrustNet Extension
+  # Bharat TrustNet
 
-## Building Towards National Safety
+## Building Towards National Digital Safety
 
-Bharat TrustNet is a browser-based trust verification platform designed to help citizens identify legitimate banking, government, UPI, KYC, and public-service websites while reducing exposure to phishing attacks and digital fraud.
+Bharat TrustNet is a browser-based trust verification platform designed to combat phishing attacks, banking fraud, fake KYC portals, UPI scams, identity theft, and fraudulent government websites. The platform helps users verify the authenticity of websites before sharing sensitive information online.
 
-The TrustNet Extension acts as a real-time trust layer between users and the websites they visit. Instead of relying solely on traditional blacklist-based approaches, TrustNet aims to verify whether a website can be recognized and trusted by authoritative sources.
-
----
-
-## Current Features
-
-### Website Trust Analysis
-
-Analyzes the website currently being visited and provides a trust score based on available verification data.
-
-### Unverified Website Detection
-
-Alerts users when a website cannot be verified through TrustNet's trusted verification process.
-
-### Real-Time Security Warnings
-
-Provides visual warnings before users interact with potentially suspicious websites.
-
-### Trust Score System
-
-Generates a trust score to help users quickly understand the risk level of a website.
-
-### Lightweight Browser Integration
-
-Works directly inside the browser for a seamless and user-friendly experience.
+Developed by a Cyber Security student from the National Forensic Sciences University (NFSU), Bharat TrustNet focuses on strengthening digital trust and improving cybersecurity awareness for citizens.
 
 ---
 
-## Future Roadmap
+## Problem Statement
 
-### Multi-Authority Verification
+Cybercriminals increasingly exploit public trust by creating fake websites that imitate banks, government portals, payment services, and citizen-service platforms. These attacks often result in:
 
-Verification through multiple trusted sources including:
+* Phishing Attacks
+* Banking Frauds
+* KYC Scams
+* Credential Theft
+* Identity Theft
+* Financial Losses
 
-* Banking Institutions
-* Government Portals
-* Cybercrime Intelligence Networks
-* Community Threat Reports
+Many users find it difficult to distinguish legitimate websites from convincing fraudulent copies.
 
-### Trust Tickets
+---
 
-Digitally signed verification records that provide proof of website verification at the time of access.
+## Solution
+
+Bharat TrustNet provides a browser-based trust layer that helps users make safer decisions online. By analyzing websites and providing trust-based insights, the platform assists users in identifying potentially fraudulent or suspicious domains before interacting with them.
+
+The project promotes a proactive approach to cybersecurity by focusing on trust verification rather than relying solely on traditional warning systems.
+
+---
+
+## Key Components
+
+### TrustNet Browser Extension
+
+A browser extension that analyzes websites and provides trust-based feedback to users while browsing.
+
+### Trust Dashboard
+
+A centralized dashboard that displays verification statistics, security insights, threat information, and user activity in a simple and accessible format.
+
+### Extension Distribution Portal
+
+A dedicated platform where users can learn about Bharat TrustNet and download the browser extension.
 
 ### NetAI Security Assistant
 
-An AI-powered cybersecurity assistant that helps users understand website risks, phishing attempts, and digital safety practices.
+An AI-powered cybersecurity assistant designed to help users understand online threats, website risks, and digital safety practices.
 
-### Security Dashboard
+---
 
-A centralized dashboard for viewing:
+## Cybersecurity Principles
 
-* Verification History
-* Security Alerts
-* Threat Reports
-* Trust Statistics
+Bharat TrustNet is built around the principles of the CIA Triad:
 
-### Privacy-Focused Digital Identity Layer
+### Confidentiality
 
-Future support for privacy-preserving verification mechanisms designed to reduce unnecessary exposure of sensitive user information across online services.
+Protecting user information and reducing exposure to malicious actors.
+
+### Integrity
+
+Promoting authenticity and trustworthiness of online services and websites.
+
+### Availability
+
+Providing accessible security tools and trust information to users.
+
+---
+
+## Technology Stack
+
+* PHP
+* HTML5
+* CSS3
+* JavaScript
+* Apache (XAMPP)
 
 ---
 
 ## Mission
 
-Our mission is to create a trusted digital ecosystem where citizens can confidently access banking, government, and public-service platforms without fear of phishing attacks, identity fraud, or malicious impersonation.
+To create a safer digital ecosystem by helping citizens identify trustworthy websites, avoid online fraud, and build confidence while using banking, government, and public-service platforms.
 
 ---
 
-## Disclaimer
+## Developer
 
-Bharat TrustNet is currently a prototype developed for hackathon and research purposes. Some planned integrations, verification services, and advanced security features are part of the future roadmap and may not yet be available in the current release.
+Developed by an NFSU Cyber Security Student with a focus on digital trust, fraud prevention, phishing detection, and citizen cybersecurity awareness.
 
 </p>
